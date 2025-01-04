@@ -5,10 +5,15 @@ This project is a chatbot designed to assist students of Universidade Aberta (UA
 
 Project Structure
 app.py: Main entry point for the Flask application.
+
 config/settings.py: Configuration settings for the project.
+
 controllers/: Contains the logic for handling questions and database operations.
+
 models/: Contains the models for embeddings and FAISS index creation.
+
 views/: Contains the routes for the Flask application.
+
 data/: Contains the data files and models used by the application.
 
 
