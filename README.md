@@ -18,6 +18,8 @@ views/: Contains the routes for the Flask application.
 data/: Contains the data files and models used by the application.
 
 
+
+
 Installation
 
 Clone the repository:  
