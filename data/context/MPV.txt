@@ -1,0 +1,18 @@
+O Modelo Pedagógico Virtual da UAb é um sistema de ensino a distância, baseado em e-learning, com foco na autonomia e flexibilidade 
+do estudante. A metodologia de e-learning na UAb é uma abordagem onde o estudante aprende online, através de materiais como livros,
+PDFs ou vídeos, atividades, e interagindo com colegas e professores no ambiente virtual. Os cursos são organizados em módulos ou 
+unidades curriculares, e o conteúdo é disponibilizado através de uma plataforma de e-learning, mais propriamente um fórum. 
+Os estudantestêm acesso a materiais de estudo, atividades interativas e fóruns de discussão. 
+No início do semestre (primeiras três semanas), pode-se optar entre dois tipos de avaliação, avaliação continua e avaliação exame. 
+Na avaliação continua, terá de fazer dois efólios (online) e no final um efólio global (online). Caso opte por avaliação exame, 
+terá apenas um exame (presencial ou em WiseFlow) no final do semestre. 
+A interação entre alunos e professores ocorre através do site, nomeadamente o fórum, email, e outras ferramentas de comunicação 
+definidas pelo professor ou tutor. Todo o conteúdo é disponibilizado online na plataforma de e-learning da UAb, acessível a 
+qualquer hora. As disciplinas são estruturadas em módulos semanais, com tarefas e prazos bem definidos. 
+O modelo flexível da UAb permite que os estudantes consigam gerir o tempo de acordo com suas necessidades, o que facilita a conciliação 
+entre trabalho e estudo. Na UAb não há aulas síncronas, mas há, por vezes, sessões de dúvidas síncronas organizadas pelo professor ou 
+tutor. Como o modelo é de ensino a distância, o aluno não tem horário a cumprir, sendo o estudo de sua responsabilidade, apenas tendo 
+de cumprir os prazos de entrega dos trabalhos.
+O modelo pedagógico da UAb é reconhecido internacionalmente e foi distinguido com vários prêmios pela sua qualidade e inovação no uso de 
+tecnologias em educação. Em 2010, a UAb recebeu o Prémio da EFQUEL (European Foundation for Quality in e-learning) e foi certificada pela
+ UNIQUe (The Quality Label for the use of ICT in Higher Education), reforçando sua posição como uma instituição de referência em e-learning.

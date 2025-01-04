@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+llama-cpp-python
+transformers
+pandas
+numpy
+requests
+openpyxl
+flask
+flask-cors

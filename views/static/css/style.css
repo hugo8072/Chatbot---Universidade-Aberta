@@ -1,0 +1,189 @@
+/* Estilo global do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: #f5f5f5; /* Cor de fundo clara */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento vertical no cabeçalho */
+}
+
+/* Container para organizar o conteúdo dentro do cabeçalho */
+.header-container {
+    width: 90%; /* Largura do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    display: flex; /* Utiliza flexbox para layout */
+    justify-content: space-between; /* Espaça itens igualmente entre o início e o fim */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+}
+
+/* Estilo para o título no cabeçalho */
+.header-container h1 {
+    margin: 0; /* Remove margens do título */
+}
+
+/* Estilo para os links no título */
+.header-container h1 a {
+    color: white; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove margens da lista */
+    padding: 0; /* Remove padding da lista */
+    display: flex; /* Utiliza flexbox para layout dos itens */
+}
+
+/* Estilo para cada item na lista de navegação */
+nav ul li {
+    margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilo para os links na navegação */
+nav ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Container principal da página */
+.main-container {
+    width: 90%; /* Largura do container principal */
+    margin: 20px auto; /* Espaçamento e centralização */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o container do chat */
+#chat-container {
+    margin: 0 auto; /* Centraliza o container */
+    width: 100%; /* Largura total */
+    max-width: 500px; /* Largura máxima */
+    padding: 20px; /* Espaçamento interno */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilos para a caixa de chat */
+#chat-box {
+    height: 300px; /* Altura fixa */
+    overflow-y: scroll; /* Permite rolar verticalmente */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    display: flex; /* Utiliza flexbox para layout */
+    flex-direction: column; /* Coloca os itens na vertical */
+}
+
+/* Estilos gerais para as mensagens */
+.message {
+    margin: 10px 0; /* Espaçamento vertical */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    max-width: 80%; /* Largura máxima relativa ao container */
+    word-wrap: break-word; /* Quebra as palavras longas */
+}
+
+/* Estilo para as mensagens do utilizador */
+.user-message {
+    background-color: #dcf8c6; /* Cor de fundo verde clara */
+    align-self: flex-end; /* Alinha as mensagens à direita */
+    text-align: right; /* Texto alinhado à direita */
+}
+
+/* Estilo para as mensagens do bot */
+.bot-message {
+    background-color: #f1f0f0; /* Cor de fundo cinza clara */
+    align-self: flex-start; /* Alinha as mensagens à esquerda */
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+/* Estilo para mensagens informativas */
+.info-message {
+    background-color: #e7f3fe; /* Cor de fundo azul clara */
+    color: #0b5394; /* Cor do texto */
+    align-self: center; /* Centraliza as mensagens */
+    text-align: center; /* Texto centralizado */
+    font-size: 0.9em; /* Tamanho do texto menor */
+}
+
+/* Estilo para o input de perguntas */
+#question-input {
+    width: calc(100% - 100px); /* Largura do input ajustada para caber junto ao botão */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para o botão de enviar */
+#send-button {
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Remove bordas padrão */
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mãozinha */
+}
+
+/* Efeito de hover no botão de enviar */
+#send-button:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro */
+}
+
+/* Estilo para o indicador de escrita */
+.typing-indicator {
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Alinha itens ao centro verticalmente */
+}
+
+/* Estilo para os pontos do indicador de escrita */
+.typing-indicator div {
+    width: 8px; /* Largura dos pontos */
+    height: 8px; /* Altura dos pontos */
+    margin: 0 4px; /* Espaçamento horizontal entre os pontos */
+    background-color: #bbb; /* Cor dos pontos */
+    border-radius: 50%; /* Formato circular */
+    animation: typing 1s infinite; /* Animação contínua */
+}
+
+/* Atraso na animação dos pontos subsequentes */
+.typing-indicator div:nth-child(2) {
+    animation-delay: 0.2s; /* Atraso na animação do segundo ponto */
+}
+
+.typing-indicator div:nth-child(3) {
+    animation-delay: 0.4s; /* Atraso na animação do terceiro ponto */
+}
+
+/* Estilo para as opções de tema */
+.theme-options {
+    display: flex; /* Utiliza flexbox para layout */
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: center; /* Centraliza os itens */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilo para cada opção de tema */
+.theme-option {
+    border: 2px solid #007BFF; /* Borda azul */
+    color: #007BFF; /* Cor do texto azul */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    margin: 5px; /* Espaçamento externo */
+    cursor: pointer; /* Cursor de mãozinha */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave de cor */
+}
+
+/* Efeito de hover nas opções de tema */
+.theme-option:hover {
+    background-color: #007BFF; /* Fundo azul ao passar o mouse */
+    color: white; /* Texto branco ao passar o mouse */
+}
