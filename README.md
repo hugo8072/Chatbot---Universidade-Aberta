@@ -4,6 +4,7 @@ This project is a chatbot designed to assist students of Universidade Aberta (UA
 
 
 Project Structure
+
 app.py: Main entry point for the Flask application.
 
 config/settings.py: Configuration settings for the project.
