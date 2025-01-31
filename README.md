@@ -48,4 +48,5 @@ Configuration settings are in `config/settings.py`. Adjust parameters such as `F
 Start the Flask application:
 ```sh
 python app.py
+```
 Access the chatbot at http://localhost:5000. 🌍
